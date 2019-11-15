@@ -1,0 +1,18 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: energy, unit: eV, datatype: float64}
+# - {name: flux, unit: erg / (cm2 s ), datatype: float64}
+# - {name: flux_error, unit: erg / (cm2 s ), datatype: float64}
+# meta: !!omap
+# - comments: [fake data]
+# - keywords: !!omap
+#   - cl: {value: 0.95}
+energy  flux   flux_error    
+
+3.16e+08 1.89e-10 7.90e-11
+6.81e+08 1.53e-10 3.62e-11
+1.47e+09 1.13e-10 3.75e-11
+3.16e+09 7.23e-11 2.39e-11
+6.81e+09 3.16e-11 1.58e-11
+1.47e+10 2.18e-11 1.25e-11
